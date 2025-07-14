@@ -1,0 +1,1 @@
+web: java -jar build/libs/desafio-dev-API-0.0.1-SNAPSHOT.jar

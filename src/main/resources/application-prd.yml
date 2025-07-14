@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://gondola.proxy.rlwy.net:29239/railway
+
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+
+  logging:
+    level:
+      root: INFO
+      org.springframework.web: DEBUG
+      org.springdoc: DEBUG
+      me.dio: DEBUG
